@@ -1,0 +1,314 @@
+/* font-family: 'Shippori Mincho B1', serif; */
+/* font-family: 'Spartan', sans-serif */
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Spartan', sans-serif
+}
+
+.wrapper {
+    background-image: url(/img/pexels-pixabay-289923.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    width: 100%;
+}
+
+.header-top {
+    width: 100%;
+    border-top: 6px solid rgb(113, 196, 113);
+    background-color: rgba(128, 128, 128, 0.856);
+    color: white;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    height: 96px;
+    align-items: center;
+}
+
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav a:hover {
+    background-color: rgb(113, 196, 113);
+    border-radius: 5px;
+    color: white;
+}
+
+h1 {
+    font-family: 'Shippori Mincho B1', serif;
+    font-weight: 600;
+    color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+.thumbnail {
+    width: 100%;
+    display: flex;
+}
+
+.thumb-left, .thumb-right {
+    padding: 20px 70px;
+    width: 50%;
+}
+
+.thumb-left p {
+    color: rgb(214, 214, 214);
+}
+
+.thumb-left h1 {
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Shippori Mincho B1', serif;
+}
+
+.thumb-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thumb-right img {
+    width: 370px;
+    border-radius: 50%;
+    border: 12px solid rgb(77, 77, 77);
+}
+
+.mid-part {
+    background-color: rgba(224, 224, 224, 0.281);
+}
+
+.service {
+    width: 100%;
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.s-items {
+    width: 22.5%;
+    background-color: white;
+    padding: 15px 30px;
+    display: grid;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.s-items h2 {
+    padding: 20px 0px;
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.s-items:nth-child(1) {
+    margin-left: 0;
+}
+
+.s-items:nth-child(4) {
+    margin-left: 0;
+}
+
+.seperator {
+    
+    background-color: rgba(224, 224, 224, 0.281);
+
+}
+
+.sep-con {
+    padding: 0 70px;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 40%;
+    margin: 0;
+    height: 6px;
+    background-color: rgb(48, 48, 48);
+}
+
+.l-work {
+    width: 20%;
+    margin: 0;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 27px;
+    font-family: 'Shippori Mincho B1', serif;
+    font-weight: 500;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.la-work {
+    background-color: rgba(224, 224, 224, 0.281);
+}
+
+.la-work-con {
+    padding: 30px 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.l-items {
+    width: 30%;
+    height: 250px;
+    margin-top: 20px;
+    border: 4px solid white;
+    
+}
+
+.l-items:nth-child(1), .l-items:nth-child(4) {
+    margin-left: 0;
+}
+
+.l-items:nth-child(3), .l-items:nth-child(6) {
+    margin-right: 0;
+}
+
+.l-1 {
+    background-image: url(/img/pexels-min-an-771313.jpg);
+    background-size: cover;
+}
+
+.l-2 {
+    background-image: url(/img/pexels-neil-kelly-712615.jpg);
+    background-size: cover;
+}
+
+.l-3 {
+    background-image: url(/img/pexels-charles-parker-5847574.jpg);
+    background-size: cover;
+}
+
+.l-4 {
+    background-image: url(/img/pexels-elina-sazonova-39719831.jpg);
+    background-size: cover;
+}
+
+.l-5 {
+    background-image: url(/img/pexels-enric-cruz-lópez-62723671.jpg);
+    background-size: cover;
+}
+
+.l-6 {
+    background-image: url(/img/pexels-flickr-1535651.jpg);
+    background-size: cover;
+}
+
+.con {
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+
+.con-ot {
+    padding: 30px 70px;
+}
+
+.hd {
+    font-family: 'Shippori Mincho B1', serif;
+    font-size: 20px;
+}
+
+.btm {
+    padding-top: 30px;
+}
+
+.btm span {
+    display: flex;
+    margin: 0;
+}
+
+.btm h4 {
+    font-size: 19px;
+    padding-bottom: 10px;
+    font-family: 'Shippori Mincho B1', serif;
+    color: rgb(113, 196, 113);
+    
+}
+
+span h6 {
+    margin: 0;
+    color: rgb(113, 196, 113);
+}
+
+.q-links a {
+    text-decoration: none;
+    color:rgb(113, 196, 113);
+}
+
+.q-links a:hover {
+    color:rgb(173, 241, 173);
+}
+
+.q-links hr {
+    height: 2px;
+    color: rgb(212, 212, 212);
+}
+
+.tw a {
+    text-decoration: none;
+    color:rgb(113, 196, 113);
+}
+
+.tw a:hover {
+    color:rgb(173, 241, 173);
+}
+
+.contacts input {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 5px;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.contacts textarea {
+    padding: 10px 5px;
+    border-radius: 8px;
+    border-style: none;
+    margin-bottom: 30px;
+}
+
+.contacts button {
+    border-style: none;
+    border-radius: 8px;
+    padding: 8px 10px;
+    background-color: rgb(113, 196, 113);
+    color: white;
+    text-transform: uppercase;
+}
+
+.contacts button:hover {
+    background-color: rgb(173, 241, 173);
+    color: black;
+}
+
+footer {
+    padding: 10px 70px 20px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-items {
+    margin: 0;
+}
