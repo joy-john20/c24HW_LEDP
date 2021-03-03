@@ -186,32 +186,32 @@ p {
 }
 
 .l-1 {
-    background-image: url(/img/pexels-min-an-771313.jpg);
+    background-image: url("../img/pexels-min-an-771313.jpg");
     background-size: cover;
 }
 
 .l-2 {
-    background-image: url(/img/pexels-neil-kelly-712615.jpg);
+    background-image: url("../img/pexels-neil-kelly-712615.jpg");
     background-size: cover;
 }
 
 .l-3 {
-    background-image: url(/img/pexels-charles-parker-5847574.jpg);
+    background-image: url("../img/pexels-charles-parker-5847574.jpg");
     background-size: cover;
 }
 
 .l-4 {
-    background-image: url(/img/pexels-elina-sazonova-39719831.jpg);
+    background-image: url("../img/pexels-elina-sazonova-39719831.jpg");
     background-size: cover;
 }
 
 .l-5 {
-    background-image: url(/img/pexels-enric-cruz-lópez-62723671.jpg);
+    background-image: url("../img/pexels-enric-cruz-lópez-62723671.jpg");
     background-size: cover;
 }
 
 .l-6 {
-    background-image: url(/img/pexels-flickr-1535651.jpg);
+    background-image: url("../img/pexels-flickr-1535651.jpg");
     background-size: cover;
 }
 
